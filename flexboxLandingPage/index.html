@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand">Code<span class="sensei">Sensei</span></div>
+    <ul class="topnav" id="navbar-toggle">
+      <li><a class="nav-link" href="#">Home</a></li>
+      <li><a class="nav-link" href="#">Products</a></li>
+      <li><a class="nav-link" href="#">About Us</a></li>
+      <li><a class="nav-link" href="#">Contact</a></li>
+      <li class="dropdownLink"><a onclick="toggleDropdown()" href="javascript:void(0)">&#9776;</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="headshot-wrapper">
+      <img class="headshotImg" src="assests/groot-smile.jpg" alt="profile image">
+      <h1>I'm Groot</h1>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assests/graph_lines.svg" alt="graph chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">Scalable Code</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Mauris aliquet malesuada feugiat.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-right">
+          <img class="icon" src="assests/pie_chart.svg" alt="graph chart">
+        </div>
+        <div class="blurb-wrapper-left">
+          <h3 class="blurb-header">This other cool attribute</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Mauris aliquet malesuada feugiat.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assests/assistant_icon.svg" alt="graph chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">6 Months of Support</h3>
+          <div class="blurb-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Mauris aliquet malesuada feugiat.
+          </div>
+        </div>
+      </div>
+      <div class="qoute-btn-wrapper">
+        <button class="qoute-btn">Get a quote</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="header">Previous Works</h1>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+        <div class="portfolio-objects">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-container">
+    <div class="container">
+      <div class="section-header">
+        <h1>Drop us a line</h1>
+      </div>
+      <form action="">
+        <label for="email">*email</label>
+        <div class="form-group">
+          <input class="form-control" type="email" id="email">
+        </div>
+        <label for="name">*name</label>
+        <div class="form-group">
+          <input class="form-control" type="text" id="name">
+        </div>
+        <label for="message">*message</label>
+        <div class="form-group">
+          <textarea class="form-control" id="message" rows="6"></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+          <button class="qoute-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+
+<script type="application/javascript" src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
